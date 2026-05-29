@@ -1,6 +1,6 @@
 import React from 'react';
 import LogoLoop from './LogoLoop';
-import { SiHtml5, SiCss, SiJavascript, SiReact, SiTypescript, SiCplusplus, SiPython, SiGit, SiGithub } from 'react-icons/si';
+import { SiHtml5, SiCss, SiJavascript, SiReact, SiTypescript, SiCplusplus, SiPython, SiGit, SiGithub, SiVisualstudiocode } from 'react-icons/si';
 
 const techLogos = [
   { node: <SiHtml5 className="text-[#E34F26]" />, title: "HTML5" },
@@ -12,6 +12,10 @@ const techLogos = [
   { node: <SiPython className="text-[#3776AB]" />, title: "Python" },
   { node: <SiGit className="text-[#F05032]" />, title: "Git" },
   { node: <SiGithub className="text-on-surface" />, title: "GitHub" },
+  { node: <SiVisualstudiocode className="text-[#007ACC]" />, title: "VS Code" },
+  { node: <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Google_Chrome_Developer_Tools_logo.svg/512px-Google_Chrome_Developer_Tools_logo.svg.png" alt="DevTools" className="w-10 h-10 object-contain" />, title: "DevTools" },
+  { node: <img src="https://mintlify.s3-us-west-1.amazonaws.com/cursor/images/logo/cursor-mark.svg" alt="Cursor" className="w-10 h-10 object-contain rounded" />, title: "Cursor" },
+  { node: <span className="material-symbols-outlined text-4xl text-primary drop-shadow-[0_0_8px_rgba(var(--color-primary),0.8)]">rocket_launch</span>, title: "Antigravity" },
 ];
 
 const Skills = () => {
