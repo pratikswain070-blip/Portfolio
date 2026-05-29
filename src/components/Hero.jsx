@@ -76,7 +76,7 @@ const Hero = () => {
               <img 
                 alt="Pratik Swain" 
                 className="object-cover w-full h-full filter grayscale hover:grayscale-0 transition-all duration-700" 
-                src="https://github.com/pratikswain070-blip.png" 
+                src="/profile-picture.jpg" 
               />
             </div>
           </div>
