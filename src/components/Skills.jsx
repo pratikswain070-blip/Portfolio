@@ -68,10 +68,10 @@ const Skills = () => {
         {/* Graphic */}
         <div className="md:col-span-4 flex justify-center items-center mt-8 md:mt-0 w-full">
           <div className="glass-card w-full aspect-square max-w-[500px] flex items-center justify-center overflow-hidden border border-outline-variant rounded-xl shadow-sm hover:border-primary transition-colors">
-            <img 
-              src="/tech_stack.png" 
-              alt="Tech Stack Graphic" 
-              className="w-full h-full object-contain mix-blend-multiply opacity-90 hover:opacity-100 hover:scale-110 transition-all duration-500"
+            <img
+              src="/tech_stack.png"
+              alt="Tech Stack Graphic"
+              className="w-full h-full object-contain opacity-90 hover:opacity-100 hover:scale-110 transition-all duration-500"
             />
           </div>
         </div>
