@@ -71,7 +71,7 @@ const Skills = () => {
             <img 
               src="/tech_stack_new.jpg" 
               alt="Tech Stack Graphic" 
-              className="w-full h-full object-contain mix-blend-multiply opacity-90 hover:opacity-100 hover:scale-110 transition-all duration-500"
+              className="w-full h-full object-contain mix-blend-multiply dark:mix-blend-normal opacity-90 hover:opacity-100 hover:scale-110 transition-all duration-500"
             />
           </div>
         </div>
